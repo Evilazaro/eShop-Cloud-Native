@@ -71,7 +71,7 @@ jobs:
 
     - run: |
          echo "Run, Build Application using script"
-         dotnet build
+         dotnet build ./src/eShopOnContainers-ServicesAndWebApps.sln
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
